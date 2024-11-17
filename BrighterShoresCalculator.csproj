@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Brighter_Shores_logo.png" />
+    <None Remove="Databases\Alchemist Database.xlsx" />
+    <None Remove="Databases\Blacksmith Database.xlsx" />
+    <None Remove="Databases\Bonewright Database.xlsx" />
+    <None Remove="Databases\Carpentry Database.xlsx" />
+    <None Remove="Databases\Chef Database.xlsx" />
+    <None Remove="Databases\Detective Database.xlsx" />
+    <None Remove="Databases\Fisher Database.xlsx" />
+    <None Remove="Databases\Forager Database.xlsx" />
+    <None Remove="Databases\Gatherer Database.xlsx" />
+    <None Remove="Databases\Guard Database.xlsx" />
+    <None Remove="Databases\Leatherworking Database.xlsx" />
+    <None Remove="Databases\Merchant Database.xlsx" />
+    <None Remove="Databases\Minefighter Database.xlsx" />
+    <None Remove="Databases\Miner Database.xlsx" />
+    <None Remove="Databases\Scout Database.xlsx" />
+    <None Remove="Databases\Stonemason Database.xlsx" />
+    <None Remove="Databases\Watchperson Database.xlsx" />
+    <None Remove="Databases\Woodcutter Database.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Databases\Alchemist Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Blacksmith Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Bonewright Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Carpentry Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Chef Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Detective Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Fisher Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Forager Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Gatherer Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Guard Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Leatherworking Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Merchant Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Minefighter Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Miner Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Scout Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Stonemason Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Watchperson Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Woodcutter Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Brighter_Shores_logo.png" />
+  </ItemGroup>
+
+</Project>

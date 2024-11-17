@@ -1,0 +1,167 @@
+﻿<Window x:Class="BrighterShoresCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BrighterShoresCalculator"
+        mc:Ignorable="d"
+        Title="Brighter Shores EXP Calculator: Alpha v0.0.1" Height="616" Width="816" Icon="/Brighter_Shores_logo.png" ResizeMode="CanMinimize">
+    <Grid Width="800" Height="600">
+        <Rectangle HorizontalAlignment="Left" Height="56" Margin="5,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="170"/>
+        <Rectangle HorizontalAlignment="Left" Height="56" Margin="195,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="588"/>
+        <Slider x:Name="_levelSlider" Height="20" Maximum="200" Minimum="1" RenderTransformOrigin="0.71,1.503" Margin="208,37,92,543" Value="0" SmallChange="1" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="_sliderValue" HorizontalAlignment="Left" Margin="708,37,0,0" TextWrapping="Wrap" Text="{Binding Value, ElementName=_levelSlider}" VerticalAlignment="Top" Width="70" Height="20" TextAlignment="Center" TextChanged="LevelTextChanged" PreviewTextInput="NumberValidationTextBox"/>
+        <TextBox x:Name="_currentExp" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="160" Height="20" TextAlignment="Center" PreviewTextInput="NumberValidationTextBox" TextChanged="ExpUpdate"/>
+        <Label Content="Current Exp" HorizontalAlignment="Left" Margin="54,6,0,0" VerticalAlignment="Top"/>
+        <Label Content="Desired Level" HorizontalAlignment="Left" Margin="449,11,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="56" Margin="5,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="_expToNext" IsReadOnly="true" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="500" VerticalAlignment="Top" Width="160" Height="20" TextAlignment="Center"/>
+        <Label Content="Exp To Next Level" HorizontalAlignment="Left" Margin="40,71,0,0" VerticalAlignment="Top"/>
+        <TabControl x:Name="MainTabControl" Height="437" VerticalAlignment="Top" Margin="0,140,0,0">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabPanel}">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                </Style>
+            </TabControl.Resources>
+
+            <TabItem Header="Hopeport" Width="120" MouseUp="ResetValues">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabControl.Resources>
+                            <Style TargetType="{x:Type TabPanel}">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem x:Name="_guardTab" Header="Guard" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="guardDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Chef" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="chefDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Fisher" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="fisherDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                            </TabItem>
+                        <TabItem Header="Forager" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="foragerDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Alchemist" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="alchemistDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Hopeforest" Width="120" MouseUp="ResetValues">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabControl.Resources>
+                            <Style TargetType="{x:Type TabPanel}">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem Header="Scout" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="scoutDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Gatherer" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="gathererDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Woodcutter" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="woodcutterDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Carpenter" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="carpenterDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Mine of Mantuban" Width="120" MouseUp="ResetValues">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabControl.Resources>
+                            <Style TargetType="{x:Type TabPanel}">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem Header="Minefighter" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="minefighterDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Bonewright" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="bonewrightDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Miner" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="minerDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Blacksmith" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="blacksmithDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Stonemason" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="stonemasonDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Crenopolis" Width="120" MouseUp="ResetValues">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabControl.Resources>
+                            <Style TargetType="{x:Type TabPanel}">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem Header="Watchperson" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="watchpersonDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Detective" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="detectiveDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Leatherworker" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="leatherworkerDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Merchant" Width="100" MouseUp="ResetValues">
+                            <Grid Background="#FFE5E5E5">
+                                <DataGrid Name="merchantDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserResizeRows="False"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>

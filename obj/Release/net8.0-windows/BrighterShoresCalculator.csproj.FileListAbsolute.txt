@@ -1,0 +1,56 @@
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\BrighterShoresCalculator.exe
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Alchemist Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Blacksmith Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Bonewright Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Carpentry Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Chef Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Detective Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Fisher Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Forager Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Gatherer Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Guard Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Leatherworking Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Merchant Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Minefighter Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Miner Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Scout Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Stonemason Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Watchperson Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Databases\Woodcutter Database.xlsx
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\BrighterShoresCalculator.deps.json
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\BrighterShoresCalculator.runtimeconfig.json
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\BrighterShoresCalculator.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\BrighterShoresCalculator.pdb
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\EPPlus.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\EPPlus.Interfaces.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\EPPlus.System.Drawing.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\System.Drawing.Common.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.csproj.AssemblyReference.cache
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\App.g.cs
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator_Content.g.cs
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator_MarkupCompile.cache
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator_MarkupCompile.lref
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\MainWindow.baml
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.g.resources
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.AssemblyInfoInputs.cache
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.AssemblyInfo.cs
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.csproj.CoreCompileInputs.cache
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\Brighter.F8155A7D.Up2Date
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\refint\BrighterShoresCalculator.dll
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.pdb
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\BrighterShoresCalculator.genruntimeconfig.cache
+C:\Users\barrj\source\repos\BrighterShoresCalculator\BrighterShoresCalculator\obj\Release\net8.0-windows\ref\BrighterShoresCalculator.dll
