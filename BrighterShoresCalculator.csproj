@@ -18,6 +18,7 @@
     <None Remove="Databases\Detective Database.xlsx" />
     <None Remove="Databases\Fisher Database.xlsx" />
     <None Remove="Databases\Forager Database.xlsx" />
+    <None Remove="Databases\Full Database.xlsx" />
     <None Remove="Databases\Gatherer Database.xlsx" />
     <None Remove="Databases\Guard Database.xlsx" />
     <None Remove="Databases\Leatherworking Database.xlsx" />
@@ -53,6 +54,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Databases\Forager Database.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Full Database.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Databases\Gatherer Database.xlsx">

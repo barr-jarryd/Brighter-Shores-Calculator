@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barrj\\source\\repos\\BrighterShoresCalculator\\BrighterShoresCalculator\\BrighterShoresCalculator.csproj": {}
+    "C:\\Users\\jarryd.barr\\source\\repos\\Brighter-Shores-Calculator\\BrighterShoresCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barrj\\source\\repos\\BrighterShoresCalculator\\BrighterShoresCalculator\\BrighterShoresCalculator.csproj": {
+    "C:\\Users\\jarryd.barr\\source\\repos\\Brighter-Shores-Calculator\\BrighterShoresCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barrj\\source\\repos\\BrighterShoresCalculator\\BrighterShoresCalculator\\BrighterShoresCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\jarryd.barr\\source\\repos\\Brighter-Shores-Calculator\\BrighterShoresCalculator.csproj",
         "projectName": "BrighterShoresCalculator",
-        "projectPath": "C:\\Users\\barrj\\source\\repos\\BrighterShoresCalculator\\BrighterShoresCalculator\\BrighterShoresCalculator.csproj",
-        "packagesPath": "C:\\Users\\barrj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barrj\\source\\repos\\BrighterShoresCalculator\\BrighterShoresCalculator\\obj\\",
+        "projectPath": "C:\\Users\\jarryd.barr\\source\\repos\\Brighter-Shores-Calculator\\BrighterShoresCalculator.csproj",
+        "packagesPath": "C:\\Users\\jarryd.barr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jarryd.barr\\source\\repos\\Brighter-Shores-Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\barrj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jarryd.barr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -75,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -337,31 +337,31 @@ namespace BrighterShoresCalculator
             switch (tabName)
             {
                 case "Guard":
-                    int columnNumber = 5;
+                    int columnNumber = 3;
                     ProcessColumn5Values(guardDataGrid, columnNumber);
                     break;
                 case "Chef":
-                    columnNumber = 6;
+                    columnNumber = 3;
                     ProcessColumn5Values(chefDataGrid, columnNumber);
                     break;
                 case "Fisher":
-                    columnNumber = 4;
+                    columnNumber = 3;
                     ProcessColumn5Values(fisherDataGrid, columnNumber);
                     break;
                 case "Forager":
-                    columnNumber = 4;
+                    columnNumber = 3;
                     ProcessColumn5Values(foragerDataGrid, columnNumber);
                     break;
                 case "Alchemist":
-                    columnNumber = 11;
+                    columnNumber = 3;
                     ProcessColumn5Values(alchemistDataGrid, columnNumber);
                     break;
                 case "Scout":
-                    columnNumber = 5;
+                    columnNumber = 3;
                     ProcessColumn5Values(scoutDataGrid, columnNumber);
                     break;
                 case "Gatherer":
-                    columnNumber = 4;
+                    columnNumber = 3;
                     ProcessColumn5Values(gathererDataGrid, columnNumber);
                     break;
                 case "Woodcutter":
@@ -369,43 +369,43 @@ namespace BrighterShoresCalculator
                     ProcessColumn5Values(woodcutterDataGrid, columnNumber);
                     break;
                 case "Carpenter":
-                    columnNumber = 8;
+                    columnNumber = 3;
                     ProcessColumn5Values(carpenterDataGrid, columnNumber);
                     break;
                 case "Minefighter":
-                    columnNumber = 5;
+                    columnNumber = 3;
                     ProcessColumn5Values(minefighterDataGrid, columnNumber);
                     break;
                 case "Bonewright":
-                    columnNumber = 6;
+                    columnNumber = 3;
                     ProcessColumn5Values(bonewrightDataGrid, columnNumber);
                     break;
                 case "Miner":
-                    columnNumber = 4;
+                    columnNumber = 3;
                     ProcessColumn5Values(minerDataGrid, columnNumber);
                     break;
                 case "Blacksmith":
-                    columnNumber = 6;
+                    columnNumber = 3;
                     ProcessColumn5Values(blacksmithDataGrid, columnNumber);
                     break;
                 case "Stonemason":
-                    columnNumber = 5;
+                    columnNumber = 3;
                     ProcessColumn5Values(stonemasonDataGrid, columnNumber);
                     break;
                 case "Watchperson":
-                    columnNumber = 5;
+                    columnNumber = 3;
                     ProcessColumn5Values(watchpersonDataGrid, columnNumber);
                     break;
                 case "Detective":
-                    columnNumber = 4;
+                    columnNumber = 3;
                     ProcessColumn5Values(detectiveDataGrid, columnNumber);
                     break;
                 case "Leatherworker":
-                    columnNumber = 6;
+                    columnNumber = 3;
                     ProcessColumn5Values(leatherworkerDataGrid, columnNumber);
                     break;
                 case "Merchant":
-                    columnNumber = 5;
+                    columnNumber = 3;
                     ProcessColumn5Values(merchantDataGrid, columnNumber);
                     break;
 
@@ -468,8 +468,8 @@ namespace BrighterShoresCalculator
 
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string databasesFolder = "Databases";
-            string fileName;
-            string filePath;
+            string fileName = "Full Database.xlsx";
+            string filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
 
             List<string> professions = new List<string>
             {
@@ -481,128 +481,91 @@ namespace BrighterShoresCalculator
                 switch (prof)
                 {
                     case "Guard":
-                        fileName = "Guard Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
-
                         DataTable dataTable1 = ReadExcelFile(filePath, prof);
 
                         guardDataGrid.ItemsSource = dataTable1.DefaultView;
                         break;
                     case "Chef":
-                        fileName = "Chef Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable2 = ReadExcelFile(filePath, prof);
 
                         chefDataGrid.ItemsSource = dataTable2.DefaultView;
                         break;
                     case "Fisher":
-                        fileName = "Fisher Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable3 = ReadExcelFile(filePath, prof);
 
                         fisherDataGrid.ItemsSource = dataTable3.DefaultView;
                         break;
                     case "Forager":
-                        fileName = "Forager Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable4 = ReadExcelFile(filePath, prof);
 
                         foragerDataGrid.ItemsSource = dataTable4.DefaultView;
                         break;
                     case "Alchemist":
-                        fileName = "Alchemist Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable5 = ReadExcelFile(filePath, prof);
 
                         alchemistDataGrid.ItemsSource = dataTable5.DefaultView;
                         break;
                     case "Scout":
-                        fileName = "Scout Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable6 = ReadExcelFile(filePath, prof);
 
                         scoutDataGrid.ItemsSource = dataTable6.DefaultView;
                         break;
                     case "Gatherer":
-                        fileName = "Gatherer Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable7 = ReadExcelFile(filePath, prof);
 
                         gathererDataGrid.ItemsSource = dataTable7.DefaultView;
                         break;
                     case "Woodcutter":
-                        fileName = "Woodcutter Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable8 = ReadExcelFile(filePath, prof);
 
                         woodcutterDataGrid.ItemsSource = dataTable8.DefaultView;
                         break;
                     case "Carpenter":
-                        fileName = "Carpentry Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable9 = ReadExcelFile(filePath, prof);
 
                         carpenterDataGrid.ItemsSource = dataTable9.DefaultView;
                         break;
                     case "Minefighter":
-                        fileName = "Minefighter Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable10 = ReadExcelFile(filePath, prof);
 
                         minefighterDataGrid.ItemsSource = dataTable10.DefaultView;
                         break;
                     case "Bonewright":
-                        fileName = "Bonewright Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable11 = ReadExcelFile(filePath, prof);
 
                         bonewrightDataGrid.ItemsSource = dataTable11.DefaultView;
                         break;
                     case "Miner":
-                        fileName = "Miner Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable12 = ReadExcelFile(filePath, prof);
 
                         minerDataGrid.ItemsSource = dataTable12.DefaultView;
                         break;
                     case "Blacksmith":
-                        fileName = "Blacksmith Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable13 = ReadExcelFile(filePath, prof);
 
                         blacksmithDataGrid.ItemsSource = dataTable13.DefaultView;
                         break;
                     case "Stonemason":
-                        fileName = "Stonemason Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable14 = ReadExcelFile(filePath, prof);
 
                         stonemasonDataGrid.ItemsSource = dataTable14.DefaultView;
                         break;
                     case "Watchperson":
-                        fileName = "Watchperson Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable15 = ReadExcelFile(filePath, prof);
 
                         watchpersonDataGrid.ItemsSource = dataTable15.DefaultView;
                         break;
                     case "Detective":
-                        fileName = "Detective Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable16 = ReadExcelFile(filePath, prof);
 
                         detectiveDataGrid.ItemsSource = dataTable16.DefaultView;
                         break;
                     case "Leatherworker":
-                        fileName = "Leatherworking Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable17 = ReadExcelFile(filePath, prof);
 
                         leatherworkerDataGrid.ItemsSource = dataTable17.DefaultView;
                         break;
                     case "Merchant":
-                        fileName = "Merchant Database.xlsx";
-                        filePath = Path.Combine(baseDirectory, databasesFolder, fileName);
                         DataTable dataTable18 = ReadExcelFile(filePath, prof);
 
                         merchantDataGrid.ItemsSource = dataTable18.DefaultView;
@@ -628,6 +591,64 @@ namespace BrighterShoresCalculator
 
                 // Get the first worksheet (make sure it exists)
                 var worksheet = package.Workbook.Worksheets[0];  // Accessing the first worksheet
+
+                switch (profession)
+                {
+                    case "Guard":
+                        worksheet = package.Workbook.Worksheets[0];
+                        break;
+                    case "Chef":
+                        worksheet = package.Workbook.Worksheets[1];
+                        break;
+                    case "Fisher":
+                        worksheet = package.Workbook.Worksheets[2];
+                        break;
+                    case "Forager":
+                        worksheet = package.Workbook.Worksheets[3];
+                        break;
+                    case "Alchemist":
+                        worksheet = package.Workbook.Worksheets[4];
+                        break;
+                    case "Scout":
+                        worksheet = package.Workbook.Worksheets[5];
+                        break;
+                    case "Gatherer":
+                        worksheet = package.Workbook.Worksheets[6];
+                        break;
+                    case "Woodcutter":
+                        worksheet = package.Workbook.Worksheets[7];
+                        break;
+                    case "Carpenter":
+                        worksheet = package.Workbook.Worksheets[8];
+                        break;
+                    case "Minefighter":
+                        worksheet = package.Workbook.Worksheets[9];
+                        break;
+                    case "Bonewright":
+                        worksheet = package.Workbook.Worksheets[10];
+                        break;
+                    case "Miner":
+                        worksheet = package.Workbook.Worksheets[11];
+                        break;
+                    case "Blacksmith":
+                        worksheet = package.Workbook.Worksheets[12];
+                        break;
+                    case "Stonemason":
+                        worksheet = package.Workbook.Worksheets[13];
+                        break;
+                    case "Watchperson":
+                        worksheet = package.Workbook.Worksheets[14];
+                        break;
+                    case "Detective":
+                        worksheet = package.Workbook.Worksheets[15];
+                        break;
+                    case "Leatherworker":
+                        worksheet = package.Workbook.Worksheets[16];
+                        break;
+                    case "Merchant":
+                        worksheet = package.Workbook.Worksheets[17];
+                        break;
+                }
 
                 // Add columns to DataTable (first row contains column names)
                 for (int col = 1; col <= worksheet.Dimension.End.Column; col++)

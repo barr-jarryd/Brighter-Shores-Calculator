@@ -16,6 +16,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/detective%20database.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/fisher%20database.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/forager%20database.xlsx")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/full%20database.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/gatherer%20database.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/guard%20database.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databases/leatherworking%20database.xlsx")]
